@@ -1,0 +1,48 @@
+# --- Laravel / PHP ---
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+/storage/framework/*
+/storage/logs/*
+/bootstrap/cache/*
+.env
+.env.*
+.phpunit.result.cache
+
+# --- FastAPI / Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pot
+*.py[cod]
+*.egg-info/
+*.egg
+*.coverage
+.coverage.*
+.cache/
+.mypy_cache/
+.pytest_cache/
+.env
+
+# --- Docker ---
+/pgdata/
+/docker-compose.override.yml
+*.pid
+*.sock
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# --- OS ---
+.DS_Store
+Thumbs.db
