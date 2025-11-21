@@ -28,6 +28,7 @@ __pycache__/
 .mypy_cache/
 .pytest_cache/
 .env
+.venv/                 # Entorno virtual de Python
 
 # --- Docker ---
 /pgdata/
@@ -46,3 +47,14 @@ __pycache__/
 # --- OS ---
 .DS_Store
 Thumbs.db
+
+# --- Python virtual env ---
+.venv/
+
+# --- Whisper models ---
+*.pt
+
+# --- Audio files ---
+*.wav
+*.mp3
+*.flac
